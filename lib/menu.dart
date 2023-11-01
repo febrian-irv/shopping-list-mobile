@@ -22,6 +22,7 @@ class MyHomePage extends StatelessWidget {
       return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.indigo,
+          centerTitle: false,
           title: const Text(
             'Shopping List',
             style: TextStyle(color: Colors.white),
